@@ -12,19 +12,19 @@ features like OOP.
 To create your first HASM program, create a file called ´´´hello.hasm´´´
 then put the following code into the created file:
 
-´´´assembly
+```assembly
 %include "std.hasm"
 
 main:
   msg: string "Hello, World!"
   print msg
 
-´´´
+```
 
 Now you need to compile your HASM code into normal Assembly:
 
-´´´console
+```console
 $ hasm test.hasm
 $ ./test
 Hello, World!
-´´´
+```
