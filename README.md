@@ -4,9 +4,10 @@ A higher version of the assembly programming language, with modern
 features like OOP.
 
 ## Features
-[x] - OOP Support
-[x] - Integrated Linker
-[x] - Dynamically typeed
+- [x] Compiled to native x86_64 asm
+- [x] OOP Support
+- [x] Integrated Linker
+- [x] Dynamically typeed
 
 ## Quick start
 To create your first HASM program, create a file called ´´´hello.hasm´´´
