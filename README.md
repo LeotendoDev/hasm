@@ -18,9 +18,11 @@ then put the following code into the created file:
 ```assembly
 %include "std.hasm"
 
-main:
+main {
   msg: string "Hello, World!"
   print msg
+  syscall
+}
 
 ```
 
