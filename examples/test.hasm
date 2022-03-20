@@ -1,5 +1,1 @@
-%include "std.hasm"
-
-main:
-  msg: string "Hello, World!"
-  print msg
+123

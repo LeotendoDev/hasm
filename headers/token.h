@@ -13,4 +13,8 @@ char s_char_token[9] = {
     '(', ')', '{', '}', '[', ']', ':', ';', '=',
 };
 
-static void 
+static void expect_token_next(char token_id)
+{
+    if (token_id > 9)
+        return;
+}
